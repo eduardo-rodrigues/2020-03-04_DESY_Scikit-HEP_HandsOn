@@ -1,4 +1,4 @@
-name: pyhep2019_particles_decays
+name: 20200304_desy_scikit-hep_handson
 dependencies:
   - python>=3.7, <3.8
   # Setting recent versions to make the conda solve faster
@@ -16,6 +16,7 @@ dependencies:
     - uproot>=3.11.0, <3.12
     - boost-histogram>=0.6.2, <0.7
     - hepstats>=0.2.1, <0.3
+    - phasespace>=1.1.0, <1.2
     - zfit>=0.4.1, <0.5
     - tabulate
     - lark-parser>=0.6.3
