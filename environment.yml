@@ -18,6 +18,7 @@ dependencies:
     - hepstats>=0.2.1, <0.3
     - phasespace>=1.1.0, <1.2
     - zfit>=0.4.1, <0.5
+    - mplhep>=0.1.5, <1.2
     - tabulate
     - lark-parser>=0.6.3
     - plumbum>=1.6.6
