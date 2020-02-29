@@ -1,4 +1,6 @@
 name: 20200304_desy_scikit-hep_handson
+channels:
+  - conda-forge
 dependencies:
   - python>=3.7, <3.8
   # Setting recent versions to make the conda solve faster
@@ -11,12 +13,14 @@ dependencies:
   - pydot>=1.3.0
   - phasespace>=1.1.0, <1.2
   - zfit>=0.4.1, <0.5
+  - root
+  - uproot>=3.11.0, <3.12
   - pip:
     - particle>=0.9.0, <0.10
     - decaylanguage>=0.6.0, <0.7
     - hepunits>=1.1.0
-    - uproot>=3.11.0, <3.12
     - boost-histogram>=0.6.2, <0.7
+    - aghast>=0.2.1, <0.3
     - hepstats>=0.2.1, <0.3
     - mplhep>=0.1.5, <1.2
     - tabulate
