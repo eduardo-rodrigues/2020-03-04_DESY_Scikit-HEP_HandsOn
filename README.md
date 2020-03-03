@@ -3,6 +3,10 @@
 Whirlwind tour of packages of the [Scikit-HEP project](http://scikit-hep.org/)
 at the [DESY](http://www.desy.de/) laboratory in Hamburg, Germany, 4 March 2020.
 
+A nice rendering of the notebooks can be obtained with nbviewer at
+https://nbviewer.jupyter.org/github/eduardo-rodrigues/2020-03-04_DESY_Scikit-HEP_HandsOn/tree/master/.
+
+
 ## Installation-free run
 
 One can straightforwardly run this notebook presentation on Binder,
